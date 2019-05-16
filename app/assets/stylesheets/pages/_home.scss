@@ -1,1 +1,19 @@
-// Specific CSS for your home-page
+
+.container-header {
+  background-color: #8898FF;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .header-text {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.header-text-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
