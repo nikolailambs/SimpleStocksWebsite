@@ -8,33 +8,32 @@
     </g>
   </svg>
 
-  <div class="wrapper">
-    <div class="box img-7" scrollSpeed="2"> <!-- bitcoin pic -->
-      <%= cl_image_tag("simpleStocks/XMLID_353.1-7", class: "iphone-image") %>
+    <div class="wrapper hidden-xs">
+      <div class="box img-7" scrollSpeed="2"> <!-- bitcoin pic -->
+        <%= cl_image_tag("simpleStocks/XMLID_353.1-7", class: "iphone-image") %>
+      </div>
+      <div class="box img-1" scrollSpeed="1"> <!-- stocks favorite screen -->
+        <%= cl_image_tag("simpleStocks/XMLID_353.1-1", class: "iphone-image") %>
+      </div>
+      <div class="box img-2" scrollSpeed="2.3"> <!-- apple stock chart -->
+        <%= cl_image_tag("simpleStocks/XMLID_353.1-2", class: "iphone-image") %>
+      </div>
+      <div class="box img-3" scrollSpeed="1.1"> <!-- list screen pic -->
+        <%= cl_image_tag("simpleStocks/XMLID_353.1", class: "iphone-image") %>
+      </div>
+      <!-- stock profile info pic -->
+      <!-- <div class="box img-4" scrollSpeed="2">
+        <%#= cl_image_tag("simpleStocks/XMLID_353.1-4", class: "iphone-image") %>
+      </div> -->
+      <!-- news image -->
+      <!-- <div class="box img-5" scrollSpeed="1">
+        <%#= cl_image_tag("simpleStocks/XMLID_353.1-6", class: "iphone-image") %>
+      </div> -->
+      <!-- crypto coin image -->
+      <!-- <div class="box img-6" scrollSpeed="1.5">
+        <%#= cl_image_tag("simpleStocks/XMLID_353.1-5", class: "iphone-image") %>
+      </div> -->
     </div>
-    <div class="box img-1" scrollSpeed="1"> <!-- stocks favorite screen -->
-      <%= cl_image_tag("simpleStocks/XMLID_353.1-1", class: "iphone-image") %>
-    </div>
-    <div class="box img-2" scrollSpeed="1.5"> <!-- apple stock chart -->
-      <%= cl_image_tag("simpleStocks/XMLID_353.1-2", class: "iphone-image") %>
-    </div>
-    <div class="box img-3" scrollSpeed="1.2"> <!-- list screen pic -->
-      <%= cl_image_tag("simpleStocks/XMLID_353.1", class: "iphone-image") %>
-    </div>
-    <!-- stock profile info pic -->
-    <!-- <div class="box img-4" scrollSpeed="2">
-      <%#= cl_image_tag("simpleStocks/XMLID_353.1-4", class: "iphone-image") %>
-    </div> -->
-    <!-- news image -->
-    <!-- <div class="box img-5" scrollSpeed="1">
-      <%#= cl_image_tag("simpleStocks/XMLID_353.1-6", class: "iphone-image") %>
-    </div> -->
-    <!-- crypto coin image -->
-    <!-- <div class="box img-6" scrollSpeed="1.5">
-      <%#= cl_image_tag("simpleStocks/XMLID_353.1-5", class: "iphone-image") %>
-    </div> -->
-
-  </div>
 
 
   <div class="container-header">
@@ -45,7 +44,11 @@
     </div>
   </div>
 
-  <p class="quote-text">“I insist on a lot of time being spent, almost every day, to just sit and think. That is very uncommon in American business. I read and think. So I do more reading and thinking, and make less impulse decisions than most people in business.” - Warrent Buffett</p>
+  <div class="box hidden-lg-img" scrollSpeed="1"> <!-- bitcoin pic -->
+    <%= cl_image_tag("simpleStocks/XMLID_353.1-1", class: "iphone-image") %>
+  </div>
+
+  <p class="quote-text hidden-xs">“I insist on a lot of time being spent, almost every day, to just sit and think. That is very uncommon in American business. I read and think. So I do more reading and thinking, and make less impulse decisions than most people in business.” - Warrent Buffett</p>
 
   <div class="container-body">
 

@@ -109,10 +109,6 @@
 
 /*container body*/
 
-.container-body {
-  /*margin-top: 300px;*/
-}
-
 .description-grid-part {
   flex: 1;
   flex-direction: row;
@@ -154,3 +150,40 @@
   justify-content: center;
   align-items: center;
 }
+
+
+/*visibility on mobile*/
+@media screen and (min-width:421px) {
+ .hidden-xs {
+    display:block;
+  }
+  .hidden-lg-img {
+    display:none;
+  }
+}
+@media screen and (max-width:420px) {
+ .hidden-xs {
+    display:none;
+  }
+  .hidden-lg-img {
+    position: relative;
+    top: -170px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .iphone-image {
+    width: 340px;
+  }
+  .curve-mask {
+    bottom: 48px !important;
+  }
+  .row {
+    margin: 0 !important;
+  }
+  .description-grid-part {
+    margin: 30px 50px !important;
+  }
+}
+
+
