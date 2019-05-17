@@ -1,27 +1,39 @@
 <div class="content">
 
+  <svg class="curve-mask" preserveAspectRatio="none" viewBox="0 0 1024 96" xmlns="http://www.w3.org/2000/svg">
+    <g id="Curve-Experiments" fill="none" fill-rule="evenodd">
+      <g id="Curve-A" transform="translate(0 -349)" fill="#FFF" fill-rule="nonzero">
+        <path d="M0 398.663c470.834 145.75 491.222-163.652 1024 0v46.08H0v-46.08z" id="mo-curve"/>
+      </g>
+    </g>
+  </svg>
+
   <div class="wrapper">
-    <div class="box img-7" scrollSpeed="1.3"> <!-- bitcoin pic -->
+    <div class="box img-7" scrollSpeed="2"> <!-- bitcoin pic -->
       <%= cl_image_tag("simpleStocks/XMLID_353.1-7", class: "iphone-image") %>
     </div>
-    <div class="box img-1" scrollSpeed="1">
+    <div class="box img-1" scrollSpeed="1"> <!-- stocks favorite screen -->
       <%= cl_image_tag("simpleStocks/XMLID_353.1-1", class: "iphone-image") %>
     </div>
-    <div class="box img-2" scrollSpeed="2">
+    <div class="box img-2" scrollSpeed="1.5"> <!-- apple stock chart -->
       <%= cl_image_tag("simpleStocks/XMLID_353.1-2", class: "iphone-image") %>
     </div>
-    <div class="box img-3" scrollSpeed="1.5"> <!-- list screen pic -->
+    <div class="box img-3" scrollSpeed="1.2"> <!-- list screen pic -->
       <%= cl_image_tag("simpleStocks/XMLID_353.1", class: "iphone-image") %>
     </div>
-    <div class="box img-4" scrollSpeed="2"> <!-- stock profile info pic -->
-      <%= cl_image_tag("simpleStocks/XMLID_353.1-4", class: "iphone-image") %>
-    </div>
-    <div class="box img-5" scrollSpeed="1"> <!-- news image -->
-      <%= cl_image_tag("simpleStocks/XMLID_353.1-6", class: "iphone-image") %>
-    </div>
-    <div class="box img-6" scrollSpeed="1.5"> <!-- crypto coin image -->
-      <%= cl_image_tag("simpleStocks/XMLID_353.1-5", class: "iphone-image") %>
-    </div>
+    <!-- stock profile info pic -->
+    <!-- <div class="box img-4" scrollSpeed="2">
+      <%#= cl_image_tag("simpleStocks/XMLID_353.1-4", class: "iphone-image") %>
+    </div> -->
+    <!-- news image -->
+    <!-- <div class="box img-5" scrollSpeed="1">
+      <%#= cl_image_tag("simpleStocks/XMLID_353.1-6", class: "iphone-image") %>
+    </div> -->
+    <!-- crypto coin image -->
+    <!-- <div class="box img-6" scrollSpeed="1.5">
+      <%#= cl_image_tag("simpleStocks/XMLID_353.1-5", class: "iphone-image") %>
+    </div> -->
+
   </div>
 
 
@@ -29,11 +41,62 @@
     <div class="header-text">
       <%= cl_image_tag("simpleStocks/icon", class: "app-logo") %>
       <p class="header-text-title">SimpleStocks</p>
-      <a href="https://itunes.apple.com/us/app/simplestocks/id1451840014?mt=8" target="_blank" class="appstore-link">Download Now <i class="fas fa-arrow-right"></i></a>
+      <a href="https://itunes.apple.com/us/app/simplestocks/id1451840014?mt=8" target="_blank" class="appstore-link"><i class="fab fa-apple"></i> Download for free</a>
     </div>
   </div>
 
+  <p class="quote-text">“I insist on a lot of time being spent, almost every day, to just sit and think. That is very uncommon in American business. I read and think. So I do more reading and thinking, and make less impulse decisions than most people in business.” - Warrent Buffett</p>
+
   <div class="container-body">
+
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <div class="description-grid-part">
+          <div class="description-icon-container" style="background-color:#DFE8F6;">
+            <i class="far fa-eye icon" style="color:#3D6CBC;"></i>
+          </div>
+          <h4 class="description-title">Visibility</h4>
+          <p class="descripiton-text">Clean desing and only the most importrant information for the best overview.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <div class="description-grid-part">
+          <div class="description-icon-container" style="background-color:#DEF6EF;">
+            <i class="far fa-chart-bar icon" style="color:#38BE98;"></i>
+          </div>
+          <h4 class="description-title">Analysis</h4>
+          <p class="descripiton-text">Analysing every chart.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <div class="description-grid-part">
+          <div class="description-icon-container" style="background-color:#FEEADE;">
+            <i class="fas fa-search icon" style="color:#FD8041;"></i>
+          </div>
+          <h4 class="description-title">Search</h4>
+          <p class="descripiton-text">Don't get lost. Filter and find your favorite stocks and the most important companies and events of the day.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <div class="description-grid-part">
+          <div class="description-icon-container" style="background-color:#FBEFDC;">
+            <i class="fas fa-star icon" style="color:#ECA53D;"></i>
+          </div>
+          <h4 class="description-title">Add as Favorite</h4>
+          <p class="descripiton-text">Add your favorite stocks as favorites to track them very fast and efficient.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-bottom">
+      <div class="header-text">
+        <%= cl_image_tag("simpleStocks/icon", class: "app-logo") %>
+        <p class="header-text-title" style="color: #242424 !important;">SimpleStocks</p>
+        <a href="https://itunes.apple.com/us/app/simplestocks/id1451840014?mt=8" target="_blank" class="appstore-link"><i class="fab fa-apple"></i> Download now</a>
+      </div>
+    </div>
 
   </div>
 
