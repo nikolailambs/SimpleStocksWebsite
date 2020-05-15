@@ -1,14 +1,7 @@
 <div class="content">
 
-  <svg class="curve-mask" preserveAspectRatio="none" viewBox="0 0 1024 96" xmlns="http://www.w3.org/2000/svg">
-    <g id="Curve-Experiments" fill="none" fill-rule="evenodd">
-      <g id="Curve-A" transform="translate(0 -349)" fill="#FFF" fill-rule="nonzero">
-        <path d="M0 398.663c470.834 145.75 491.222-163.652 1024 0v46.08H0v-46.08z" id="mo-curve"/>
-      </g>
-    </g>
-  </svg>
 
-    <div class="wrapper hidden-xs">
+    <div class="wrapper hidden-xs" style="z-index: 10;">
       <div class="box img-7" scrollSpeed="2"> <!-- bitcoin pic -->
         <%= cl_image_tag("simpleStocks/XMLID_353.1-7", class: "iphone-image") %>
       </div>
@@ -37,18 +30,31 @@
 
 
   <div class="container-header">
+
     <div class="header-text">
       <%= cl_image_tag("simpleStocks/icon", class: "app-logo") %>
       <p class="header-text-title">SimpleStocks</p>
       <a href="https://itunes.apple.com/us/app/simplestocks/id1451840014?mt=8" target="_blank" class="appstore-link"><i class="fab fa-apple"></i> Download for free</a>
     </div>
+
+    <!-- wave line -->
+    <svg class="curve-mask" preserveAspectRatio="none" viewBox="0 0 1024 96" xmlns="http://www.w3.org/2000/svg">
+      <g id="Curve-Experiments" fill="none" fill-rule="evenodd">
+        <g id="Curve-A" transform="translate(0 -349)" fill="#FFF" fill-rule="nonzero">
+          <path d="M0 398.663c470.834 145.75 491.222-163.652 1024 0v46.08H0v-46.08z" id="mo-curve"/>
+        </g>
+      </g>
+    </svg>
+
   </div>
 
   <div class="hidden-lg-img"> <!-- favorite pic -->
     <%= cl_image_tag("simpleStocks/XMLID_353.1-1", class: "iphone-image") %>
   </div>
 
-  <p class="quote-text hidden-xs">“I insist on a lot of time being spent, almost every day, to just sit and think. That is very uncommon in American business. I read and think. So I do more reading and thinking, and make less impulse decisions than most people in business.” - Warrent Buffett</p>
+  <div style="display: flex; justify-content: center; align-items: center; text-align: center;">
+    <p class="quote-text hidden-xs">“I insist on a lot of time being spent, almost every day, to just sit and think. That is very uncommon in American business. I read and think. So I do more reading and thinking, and make less impulse decisions than most people in business.” - Warrent Buffett</p>
+  </div>
 
   <div class="container-body">
 
